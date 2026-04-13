@@ -1,1 +1,1 @@
-python core/lang67.py your_file.67
+python lang67.py your_file.67
