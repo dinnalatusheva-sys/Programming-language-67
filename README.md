@@ -33,6 +33,20 @@ python core/lang67.py simple.67
 python core/lang67.py my_program.67
 ```
 
+### Конвертер Python -> 67
+
+Можно автоматически перевести простой Python-код в `67`:
+
+```bash
+python core/py_to_67.py input.py output.67
+```
+
+После этого запуск:
+
+```bash
+python core/lang67.py output.67
+```
+
 ## Структура проекта
 
 - `lang67.py` — весь интерпретатор (токенизация, парсинг, выполнение).
@@ -170,6 +184,9 @@ python core/lang67.py my_program.67
 - нет списков/словарей/модулей;
 - нет `для`-цикла, только `пока`;
 - нет escape-последовательностей в строках.
+- конвертер Python -> 67 поддерживает только подмножество Python:
+  присваивания, `print(x)`, `x = input()`, `if/else`, `while`, `break`, `continue`,
+  арифметику `+ - * /` и логику `and/or/not`.
 
 ## Типичные ошибки
 
