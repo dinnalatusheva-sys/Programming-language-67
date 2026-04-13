@@ -24,13 +24,13 @@
 2. Запусти интерпретатор с файлом `.67`:
 
 ```bash
-python core/lang67.py simple.67
+python lang67.py simple.67
 ```
 
 Если хочешь использовать свой файл:
 
 ```bash
-python core/lang67.py my_program.67
+python lang67.py my_program.67
 ```
 
 ### Конвертер Python -> 67
@@ -38,13 +38,13 @@ python core/lang67.py my_program.67
 Можно автоматически перевести простой Python-код в `67`:
 
 ```bash
-python core/py_to_67.py input.py output.67
+python py_to_67.py input.py output.67
 ```
 
 После этого запуск:
 
 ```bash
-python core/lang67.py output.67
+python lang67.py output.67
 ```
 
 ## Структура проекта
